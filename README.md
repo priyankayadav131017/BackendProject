@@ -32,10 +32,10 @@ The project also integrates **Cloudinary** for cloud-based media storage and **M
 * 🔹 Mongoose ODM
 * 🔹 User registration and management
 * 🔹 User and video data models
-* 🔹 JWT-based authentication
-* 🔹 Access token and refresh token handling
-* 🔹 Password hashing with bcrypt
-* 🔹 Cookie-based authentication
+* 🔹 JWT authentication setup
+* 🔹 Access and refresh token configuration
+* 🔹 Secure password hashing with bcrypt
+* 🔹 Cookie handling
 * 🔹 File upload handling with Multer
 * 🔹 Cloudinary integration for media storage
 * 🔹 CORS configuration
@@ -160,13 +160,13 @@ This structure keeps different responsibilities separated and makes the applicat
 
 ## 🔐 Authentication
 
-The project implements authentication using **JSON Web Tokens (JWT)**.
+The project is being developed with **JSON Web Token (JWT)** based authentication.
 
-The authentication system uses:
+The authentication setup includes:
 
 * Access tokens
 * Refresh tokens
-* Password hashing
+* Password hashing with bcrypt
 * Cookies
 * JWT secrets
 * Token expiration
