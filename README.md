@@ -414,16 +414,6 @@ npm run dev
 
 Starts the development server using Nodemon.
 
-### Production
-
-```bash
-npm start
-```
-
-Starts the application using Node.js.
-
----
-
 ## 🧪 Testing Database Connection
 
 The repository also contains:
